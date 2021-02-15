@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name" translatable="false">Exo 4</string>
+    <string name="nom">"Nom"</string>
+    <string name="Submit">Confirmer</string>
+    <string name="Prénom">Prénom</string>
+    <string name="entrez_votre_nom">Entrez votre Nom</string>
+    <string name="entrez_votre_prenom">Entrez votre Prenom</string>
+    <string name="age">age</string>
+    <string name="Age">Age</string>
+    <string name="entrez_votre_age">Entrez votre age</string>
+    <string name="Mail">Mail</string>
+    <string name="entrez_votre_mail">Entrez_votre_mail</string>
+    <string name="entrez_votre_numero_de_telephone">Entrez_votre_numero-de-telephone</string>
+    <string name="Tel">Tel</string>
+</resources>
