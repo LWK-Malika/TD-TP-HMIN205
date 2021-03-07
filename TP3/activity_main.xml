@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/tableLayout"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:shrinkColumns="*"
+        android:stretchColumns="*"
+        tools:ignore="MissingConstraints">
+        <TableRow
+            android:id="@+id/tableRow1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="5dip" >
+            <TextView
+                android:id="@+id/ViewNom"
+                android:text="@string/nom"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                />
+            <EditText
+                android:id="@+id/saisiNom"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:autofillHints="" />
+
+        </TableRow>
+        <TableRow
+            android:id="@+id/tableRow2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="5dip" >
+            <TextView
+                android:id="@+id/ViewPrenom"
+                android:text="@string/prenom"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                />
+            <EditText
+                android:id="@+id/saisiPrenom"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+
+        </TableRow>
+        <TableRow
+            android:id="@+id/tableRow3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="5dip" >
+            <TextView
+                android:id="@+id/ViewAge"
+                android:text="@string/age"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                />
+            <EditText
+                android:id="@+id/saisiAge"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+
+        </TableRow>
+
+
+        <TableRow
+            android:id="@+id/tableRow6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="5dip" >
+            <TextView
+                android:id="@+id/ViewTel"
+                android:text="@string/telephone"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                />
+            <EditText
+                android:id="@+id/saisiTel"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/tableRow4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="5dip" >
+            <TextView
+                android:id="@+id/mdp"
+                android:text="@string/mdp"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                />
+            <EditText
+                android:id="@+id/saisimdp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+
+        </TableRow>
+
+
+        <Button
+            android:id="@+id/submit"
+            android:text="@string/submit" />
+
+        <Button
+            android:id="@+id/planning"
+            android:text="@string/affiche_planning" />
+
+    </TableLayout>
+
+    </androidx.constraintlayout.widget.ConstraintLayout>

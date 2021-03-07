@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Planning">
+
+    <TableLayout
+
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:shrinkColumns="*"
+        android:stretchColumns="*"
+        tools:ignore="MissingConstraints">
+    <TableRow
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="5dip" >
+        <TextView
+            android:text="08h- 10h :"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            />
+        <TextView
+            android:id="@+id/matin"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:textAppearance="?android:attr/textAppearanceLarge"/>
+
+    </TableRow>
+    <TableRow
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="5dip" >
+        <TextView
+            android:text="10h- 12h :"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            />
+        <TextView
+            android:id="@+id/midi"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"/>
+
+
+    </TableRow>
+    <TableRow
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="5dip" >
+        <TextView
+            android:text="14h- 16h :"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            />
+        <TextView
+            android:id="@+id/aprem"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+
+            />
+
+
+
+    </TableRow>
+
+
+    <TableRow
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="5dip" >
+        <TextView
+
+            android:text="16h- 18h :"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            />
+        <TextView
+            android:id="@+id/soir"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            />
+
+
+
+
+    </TableRow>
+    </TableLayout>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

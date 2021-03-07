@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Exercice_1</string>
+    <string name="nom">Nom</string>
+    <string name="prenom">Prenom</string>
+    <string name="age">age</string>
+    <string name="tel">tel</string>
+    <string name="mdp">mot de passe</string>
+</resources>
